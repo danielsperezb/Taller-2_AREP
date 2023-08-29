@@ -52,29 +52,38 @@ Explica qué prueban estas pruebas y por qué.
 Pruebas con fundamente de finalizacion:
 
     1. Archivo HTML:
+...
 
     ![HTML](https://tucatalogo.digital/img_cvds/html.png)
 
+...
     2.Archivo CSS:
 
-    ![CSS](http://tucatalogo.digital/img_cvds/css.png)
+...
 
+    ![CSS](https://tucatalogo.digital/img_cvds/css.png)
+
+...
     3.Archivo JS:
+...
 
-    ![JS](http://tucatalogo.digital/img_cvds/js.png)
+    ![JS](https://tucatalogo.digital/img_cvds/js.png)
 
+...
     4.Archivo PNG:
+...
 
-    ![PNG](http://tucatalogo.digital/img_cvds/png.png)
+    ![PNG](https://tucatalogo.digital/img_cvds/png.png)
 
+...
     5.Archivo JPG
-
-    ![JPG](http://tucatalogo.digital/img_cvds/jpg.png)
-
-
+...
+    ![JPG](https://tucatalogo.digital/img_cvds/jpg.png)
 
 
-```
+
+
+
 
 
 
