@@ -18,7 +18,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto y ejecutarlo e
 - Un navegador (Preferencia que sea Mozilla o Chrome).
 - Un IDLE como NetBeans para poder arrancar el servidor (Nota: Hay otras maneras).
 
-
+![SERVIDOR](http://tucatalogo.digital/img_cvds/servidor.png)
 
 - GitBash para clonar tu proyecto en tu Computadora.
 
@@ -53,10 +53,23 @@ Pruebas con fundamente de finalizacion:
 
     1. Archivo HTML:
 
-
+    ![HTML](https://tucatalogo.digital/img_cvds/html.png)
 
     2.Archivo CSS:
 
+    ![CSS](http://tucatalogo.digital/img_cvds/css.png)
+
+    3.Archivo JS:
+
+    ![JS](http://tucatalogo.digital/img_cvds/js.png)
+
+    4.Archivo PNG:
+
+    ![PNG](http://tucatalogo.digital/img_cvds/png.png)
+
+    5.Archivo JPG
+
+    ![JPG](http://tucatalogo.digital/img_cvds/jpg.png)
 
 
 
@@ -78,7 +91,6 @@ Pruebas con fundamente de finalizacion:
 
 ## Construido Con
 
-* [omdbapi](https://www.omdbapi.com/ ) - API Gratuito
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [README](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) - Contrui este ReadMe basado en la plantilla de https://gist.github.com/PurpleBooth.
 
