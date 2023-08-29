@@ -47,16 +47,19 @@ Explica cómo ejecutar las pruebas automatizadas para este sistema.
 
 Explica qué prueban estas pruebas y por qué.
 
-```
 
 Pruebas con fundamente de finalizacion:
 
+...
+
     1. Archivo HTML:
+
 ...
 
     ![HTML](https://tucatalogo.digital/img_cvds/html.png)
 
 ...
+
     2.Archivo CSS:
 
 ...
@@ -64,20 +67,27 @@ Pruebas con fundamente de finalizacion:
     ![CSS](https://tucatalogo.digital/img_cvds/css.png)
 
 ...
+
     3.Archivo JS:
+
 ...
 
     ![JS](https://tucatalogo.digital/img_cvds/js.png)
 
 ...
+
     4.Archivo PNG:
+
 ...
 
     ![PNG](https://tucatalogo.digital/img_cvds/png.png)
 
 ...
+
     5.Archivo JPG
+
 ...
+
     ![JPG](https://tucatalogo.digital/img_cvds/jpg.png)
 
 
