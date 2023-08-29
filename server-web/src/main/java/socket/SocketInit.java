@@ -14,6 +14,18 @@ import java.util.*;
  */
 public class SocketInit {
     private final static int PUERTO_SERVIDOR = 35000;
+    private static SocketInit instance;
+    
+     private SocketInit() {
+        // Constructor privado para evitar instanciación directa
+    }
+     
+     public static synchronized SocketInit getInstance() {
+        if (instance == null) {
+            instance = new SocketInit();
+        }
+        return instance;
+    }
 
     /**
      * Metodo que implementa la clase ServerSocket y que abre un puerto de escucha para
@@ -48,11 +60,11 @@ public class SocketInit {
                             break;
                         }
                     }
-
+                    System.out.println(response);
                     outputLine = "HTTP/1.1 200 \r\n" +
                             "Content-Type: application/json \r\n" +
                             "Access-Control-Allow-Origin: * \r\n" +
-                            "\r\n" +
+                            "\r\n" + 
                             getResourceByType(response);
 
                     out.println(outputLine);
@@ -77,7 +89,7 @@ public class SocketInit {
      * @param response Parametro que contiene el nombre de la pelicula a buscar
      * @return La respuesta con la información de la pelicula. Es agnostico de si la devolvió la caché, o el servicio externo.
      */
-    private static String getResourceByType(String response) throws IOException {
+    public static String getResourceByType(String response) throws IOException {
         String resource = response.replace("GET /?resource=", "");
         String finalResponse = "";
 
