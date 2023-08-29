@@ -1,10 +1,10 @@
 # TALLER AREP #2: DISEÑO Y ESTRUCTURACIÓN DE APLICACIONES DISTRIBUIDAS EN INTERNET
 
+En este taller se explorará la arquitectura de las aplicaciones distribuidas. Concretamente, exploraremos la arquitectura de los servidores web y el protocolo HTTP sobre el que están soportados.
 
-En este taller se explorará la arquitectura de las aplicaciones distribuidas. Concretamente, exploraremos la arquitectura de  los servidores web y el protocolo http sobre el que están soportados. 
+## Reto
 
-RETO :
-Escriba un servidor web que soporte múlltiples solicitudes seguidas (no concurrentes). El servidor debe leer los archivos del disco local y retornar todos los archivos solicitados, incluyendo páginas html, archivos java script, css e imágenes. Construya una aplicación web con  javascript, css, e imágenes para probar su servidor. Incluya en la aplicación la comunicación asíncrona con unos servicios REST en el backend. NO use frameworks web como Spark o Spring, use solo Java y las librerías para manejo de la red.
+Escriba un servidor web que soporte múltiples solicitudes seguidas (no concurrentes). El servidor debe leer los archivos del disco local y retornar todos los archivos solicitados, incluyendo páginas HTML, archivos JavaScript, CSS e imágenes. Construya una aplicación web con JavaScript, CSS e imágenes para probar su servidor. Incluya en la aplicación la comunicación asíncrona con unos servicios REST en el backend. NO use frameworks web como Spark o Spring, use solo Java y las librerías para manejo de la red.
 
 ## Empezando
 
@@ -14,119 +14,71 @@ Estas instrucciones te permitirán obtener una copia del proyecto y ejecutarlo e
 
 ¿Qué cosas necesitas instalar para el software?
 
-```
-- Un navegador (Preferencia que sea Mozilla o Chrome).
-- Un IDLE como NetBeans para poder arrancar el servidor (Nota: Hay otras maneras).
+- Un navegador (preferiblemente Mozilla o Chrome).
+- Un IDE como NetBeans para poder arrancar el servidor (Nota: Hay otras maneras).
+- GitBash para clonar el proyecto en tu computadora.
 
 ![SERVIDOR](http://tucatalogo.digital/img_cvds/servidor.png)
 
-- GitBash para clonar tu proyecto en tu Computadora.
+### Instalación
 
-```
+Una serie de pasos a seguir para configurar un entorno de desarrollo.
 
-### Instalacion
+1. Clonar este repositorio en tu computadora.
+2. Encontrarás dos carpetas, server-web y client-web.
+3. Puedes abrir server-web desde NetBeans y ejecutar main.java.
+4. Abrir el cliente:
+   - Si tienes una extensión en Visual Studio Code, puedes usarla para abrir un puerto y acceder a la página de la siguiente manera, por ejemplo: http://127.0.0.1:5500/index.html.
+   - De manera más sencilla, simplemente abre index.html en Mozilla o Chrome.
 
-Una serie paso a paso de ejemplos que te indican cómo configurar un entorno de desarrollo.
-
-```
-    1. Clonar este respositorio en su computadora.
-    2. Encontrara dos carpetas, server-web y client-web.
-    3. Server-web puede abrirlo desde NETBEANS y arranca el main.java
-    4. Abra el cliente: 
-        4.1. Si tiene una extension en Visual Studio code puede usarla para abrir un puerto y consultar la pagina de la siguiente manera. Por Ejemplo: http://127.0.0.1:5500/index.html
-        4.2 Mas sencillo, simplemente abra el index.html en Mozilla o Chrome.
-
-```
-
-
-## Ejecución de las pruebas.
+## Ejecución de las pruebas
 
 Explica cómo ejecutar las pruebas automatizadas para este sistema.
 
-### Desglosar en pruebas de extremo a extremo.
+### Desglose de pruebas de extremo a extremo
 
 Explica qué prueban estas pruebas y por qué.
 
+#### Pruebas con fundamentos de finalización
 
-Pruebas con fundamente de finalizacion:
+1. Archivo HTML
 
+![HTML](https://tucatalogo.digital/img_cvds/html.png)
 
+2. Archivo CSS
 
-    1. Archivo HTML:
+![CSS](https://tucatalogo.digital/img_cvds/css.png)
 
+3. Archivo JS
 
+![JS](https://tucatalogo.digital/img_cvds/js.png)
 
-    ![HTML](https://tucatalogo.digital/img_cvds/html.png)
+4. Archivo PNG
 
+![PNG](https://tucatalogo.digital/img_cvds/png.png)
 
-    2.Archivo CSS:
+5. Archivo JPG
 
-
-
-    ![CSS](https://tucatalogo.digital/img_cvds/css.png)
-
-
-    3.Archivo JS:
-
-
-
-    ![JS](https://tucatalogo.digital/img_cvds/js.png)
-
-
-    4.Archivo PNG:
-
-
-
-    ![PNG](https://tucatalogo.digital/img_cvds/png.png)
-
-
-    5.Archivo JPG
-
-
-
-    ![JPG](https://tucatalogo.digital/img_cvds/jpg.png)
-
-
-
-
-
-
-
-
-
-
+![JPG](https://tucatalogo.digital/img_cvds/jpg.png)
 
 ## Implementación
 
-```
-    5. Consulte la extension del archivo que quiere buscar:
+1. Consulta la extensión del archivo que deseas buscar.
+2. Escribe "css" y haz clic en el botón "Buscar".
 
-    6. Escribe "css" y dale en el boton "Buscar"
-```
+## Construido con
 
-## Construido Con
-
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [README](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) - Contrui este ReadMe basado en la plantilla de https://gist.github.com/PurpleBooth.
-
-
-<!-- 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. -->
-
-<!-- ## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).  -->
+- [Maven](https://maven.apache.org/) - Administración de dependencias
+- [README](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) - Creé este README basado en la plantilla de https://gist.github.com/PurpleBooth.
 
 ## Autores
 
-* **Daniel Esteban Perez Bohorquez** -
+- **Daniel Esteban Perez Bohorquez**
 
 ## Licencia
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE.md](LICENSE.md) para obtener más detalles.
 
 ## Agradecimientos
 
-* Escuela Colombiana de Ingenieria
+- Escuela Colombiana de Ingeniería

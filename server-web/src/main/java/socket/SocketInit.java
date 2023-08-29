@@ -60,7 +60,7 @@ public class SocketInit {
                             break;
                         }
                     }
-                    System.out.println(response);
+                    
                     outputLine = "HTTP/1.1 200 \r\n" +
                             "Content-Type: application/json \r\n" +
                             "Access-Control-Allow-Origin: * \r\n" +
